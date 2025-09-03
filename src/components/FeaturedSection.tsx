@@ -4,17 +4,17 @@ const products = [
   {
     name: "Rolex Submariner",
     price: "$12,000",
-    image: "src/assets/Rolex Submariner.webp"
+    image: "/assets/Rolex Submariner.webp"
   },
   {
     name: "Omega Seamaster",
     price: "$8,500",
-    image: "src/assets/omega-seamaster.webp"
+    image: "/assets/omega-seamaster.webp"
   },
   {
     name: "Patek Philippe",
     price: "$25,000",
-    image: "src/assets/montres-patek-philippe.webp"
+    image: "/assets/montres-patek-philippe.webp"
   }
 ];
 

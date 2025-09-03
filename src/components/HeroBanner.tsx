@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react";
-import watch1 from "../assets/watch1.webp";
-import watch2 from "../assets/watch2.jpeg";
-import watch3 from "../assets/watch3.webp";
-import watch4 from "../assets/watch4.jpg";
-import watch5 from "../assets/watch5.jpg";
-import watch6 from "../assets/watch6.jpg";
 
-const images = [watch1, watch2, watch3, watch4, watch5, watch6];
+const images = [
+  "/assets/watch1.webp",
+  "/assets/watch2.jpeg",
+  "/assets/watch3.webp",
+  "/assets/watch4.jpg",
+  "/assets/watch5.jpg",
+  "/assets/watch6.jpg"
+];
 
 export const HeroSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

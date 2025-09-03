@@ -1,5 +1,4 @@
 import { useState } from "react";
-import logo from "../assets/luxury-watches.webp";
 
 export const Navbar = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -10,7 +9,7 @@ export const Navbar = () => {
       <div className="flex justify-between items-center py-2 px-6 bg-[#014a2b]">
         {/* Logo */}
         <div className="flex gap-2">
-          <img className="w-[42px]" src={logo} />
+          <img className="w-[42px]" src="/assets/luxury-watches.webp" />
           <h1 className="text-2xl pt-2 font-bold text-[#f6dd92]">
             Luxury Watches
           </h1>

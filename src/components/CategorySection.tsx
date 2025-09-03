@@ -1,15 +1,15 @@
 const categories = [
   {
     name: "Rolex",
-    image: "src/assets/rolex.webp"
+    image: "/assets/rolex.webp"
   },
   {
     name: "Omega",
-    image: "src/assets/omega.png"
+    image: "/assets/omega.png"
   },
   {
     name: "Patek",
-    image: "src/assets/patek.jpeg"
+    image: "/assets/patek.jpeg"
   }
 ];
 
