@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import logo from "../assets/luxury-watches.webp";
 
 export const Navbar = () => {
