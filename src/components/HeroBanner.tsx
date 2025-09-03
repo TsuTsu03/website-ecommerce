@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import watch1 from "../assets/watch1.webp";
 import watch2 from "../assets/watch2.jpeg";
 import watch3 from "../assets/watch3.webp";

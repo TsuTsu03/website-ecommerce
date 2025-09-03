@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Footer = () => (
   <footer className="bg-primary text-light px-6 py-12">
     <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between gap-8">
